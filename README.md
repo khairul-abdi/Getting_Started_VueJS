@@ -16,6 +16,6 @@
 
 
 
-![alt text](https://github.com/khairul-abdi/Getting_Started_VueJS/blob/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding/assets/logo.png =100x20  "VueJS")
+![alt text](https://github.com/khairul-abdi/Getting_Started_VueJS/blob/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding/assets/logo.png =100x20)
 
 ## [VueJS](https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
