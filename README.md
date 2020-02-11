@@ -1,7 +1,7 @@
 # Getting Started VueJS
 
 
-## [:open_file_folder: Intro to Vue.js ](https://github.com/khairul-abdi/Getting_Started_VueJS)
+## [:open_file_folder: Intro to Vue.js ](https://github.com/khairul-abdi/khairul-abdi-Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js)
 * The Vue Instance
 * Attribute Binding
 * Conditional Rendering
