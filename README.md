@@ -16,5 +16,5 @@
 
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/khairul-abdi/Getting_Started_VueJS/blob/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding/assets/logo.png "VueJS")(https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
 [VueJS](https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
