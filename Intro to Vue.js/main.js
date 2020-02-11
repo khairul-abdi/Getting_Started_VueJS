@@ -2,6 +2,9 @@
 const app = new Vue({
   el: '#app',
   data: {
-    product: "Socks"
+    product: "Socks",
+    firstName: "Khairul",
+    lastName: "Abdi",
+    message: "aku"
   }
 })
