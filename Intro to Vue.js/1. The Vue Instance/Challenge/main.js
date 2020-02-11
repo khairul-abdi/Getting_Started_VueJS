@@ -4,6 +4,7 @@ const app = new Vue({
     product: "Socks",
     firstName: "Khairul",
     lastName: "Abdi",
-    message: "akumaumakan"
+    message: "akumaumakan",
+    description: "A pair of warm, fuzzy socks"
   }
 })
