@@ -11,6 +11,17 @@ npm install
 ```
 
 ## [:open_file_folder: Intro to Vue.js ](https://github.com/khairul-abdi/Getting_Started_VueJS)
+* The Vue Instance
+* Attribute Binding
+* Conditional Rendering
+* List Rendering
+* Event Handling
+* Class & Style Binding
+* Computer Properties
+* Components
+* Communicating Events
+* Forms 
+* Tabs
 
 
 
