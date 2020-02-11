@@ -1,15 +1,6 @@
 # Getting Started VueJS
 
 
-### Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Run in your browser
-```
-
 ## [:open_file_folder: Intro to Vue.js ](https://github.com/khairul-abdi/Getting_Started_VueJS)
 * The Vue Instance
 * Attribute Binding
