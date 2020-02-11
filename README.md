@@ -16,5 +16,5 @@
 
 
 
-### Resources:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 [VueJS](https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
