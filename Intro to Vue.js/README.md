@@ -9,18 +9,18 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * How to begin writing a Vue application with a Vue instance, and how to load basic data onto the webpage.
 * The Vue instance is the root of every Vue application
 * The Vue instance plugs into an element in the DOM
-* The Vue instance’s data can be displayed using the mustache-like syntax {{ }} called an expression.
+* The Vue instance’s data can be displayed using the mustache-like syntax ```{{ }}``` called an expression.
 * Vue is reactive
 
 ### [:open_file_folder: Attribute Binding ](https://github.com/khairul-abdi/khairul-abdi-Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding)
 
 #### So what have we learned?
 * Data can be bound to HTML attributes.
-* Syntax is v-bind: or : for short.
-* The attribute name that comes after * the : specifies the attribute we’re * binding data to.
-* Inside the attribute’s quotes, we * reference the data we’re binding to.
+* Syntax is ```v-bind:``` or ```:``` for short.
+* The attribute name that comes after the ```:``` specifies the attribute we’re binding data to.
+* Inside the attribute’s quotes, we reference the data we’re binding to.
 
-### [:open_file_folder: Conditional Rendering ](https://github.com/khairul-abdi/khairul-abdi-Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding)
+### [:open_file_folder: Conditional Rendering ]()
 
 #### What’d we learn
 * There are Vue directives to conditionally render elements:
