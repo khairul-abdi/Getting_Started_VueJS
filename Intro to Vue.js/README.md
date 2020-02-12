@@ -20,7 +20,7 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * The attribute name that comes after the ```:``` specifies the attribute we’re binding data to.
 * Inside the attribute’s quotes, we reference the data we’re binding to.
 
-### [:open_file_folder: Conditional Rendering ]()
+### [:open_file_folder: Conditional Rendering ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/3.%20Conditional%20Rendering)
 
 #### What’d we learn
 * There are Vue directives to conditionally render elements:
