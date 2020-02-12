@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>List Rendering</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="nav-bar"></div>
   <div id="app">
@@ -17,6 +19,7 @@
         <h1>{{ product }}</h1>
         <p v-if="inStock">In Stock</p>
         <p v-else>Out of Stock</p>
+
         <ul>
           <li v-for="detail in details">{{ detail }}</li>
         </ul>
@@ -24,7 +27,7 @@
         <ul>
           <li v-for="size in sizes">{{ size }}</li>
         </ul>
-        
+
         <div v-for="variant in variants" :key="variant.variantId">
           <p @mouseover="updateProduct(variant.variantImage)">
             {{ variant.variantColor }}</p>
@@ -32,9 +35,11 @@
 
         <div class="cart">
           <p>Cart({{ cart }})</p>
-          <button v-on:click="addToCart">Add to cart</button>  <!-- Menggunakan Method di dalam Class nya --> 
-          <button v-on:click="subToCart" v-if="this.cart > 0">Sub to cart</button>
         </div>
+
+        <button v-on:click="addToCart">Add to cart</button> <!-- Menggunakan Method di dalam Class nya -->
+        <button class="remove" v-on:click="removeFromCart" v-if="this.cart > 0">Remove from cart</button>
+
       </div>
     </div>
   </div>
@@ -42,4 +47,5 @@
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>

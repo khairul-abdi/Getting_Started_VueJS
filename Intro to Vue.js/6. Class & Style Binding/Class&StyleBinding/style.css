@@ -5,7 +5,7 @@ body {
 }
 
 .nav-bar {
-  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
   height: 60px;
   margin-bottom: 15px;
 }
@@ -18,7 +18,7 @@ img {
   border: 2px solid #d8d8d8;
   width: 70%;
   margin: 40px;
-  box-shadow: 0px .5px 1px #d8d8d8;
+  box-shadow: 0px 0.5px 1px #d8d8d8;
 }
 
 .product-image {
@@ -37,20 +37,26 @@ img {
   padding: 5px 20px;
 }
 
-button{
+button {
   margin-top: 30px;
   border: none;
-  background-color: #1E95EA;
+  background-color: #1e95ea;
   color: white;
   height: 40px;
   width: 100px;
   font-size: 14px;
 }
 
+.disabledButton {
+  background-color: #d8d8d8;
+}
+
 .remove {
   width: 130px;
 }
 
-.disabledButton {
-  background-color: #d8d8d8;
+.color-box {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
 }

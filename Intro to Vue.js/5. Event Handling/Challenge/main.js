@@ -17,6 +17,9 @@ const app = new Vue({
     addToCart() {
       this.cart += 1
     },
+    removeFromCart() {
+      this.cart -= 1
+    },
     subToCart() {
       this.cart -= 1
     },
