@@ -52,6 +52,3 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * The v-on directive can trigger a method
 * Triggered methods can take in arguments
 * this refers to the current Vue instance’s data as well as other methods declared inside the instance
-
-### Resources:
-[VueJS](https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
