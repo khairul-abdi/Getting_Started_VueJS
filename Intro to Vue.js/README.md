@@ -32,7 +32,7 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * You can use expressions inside the directive’s quotes.
 * V-show only toggles visibility, it does not insert or remove the element from the DOM.
 
-### [:open_file_folder: List Rendering ]()
+### [:open_file_folder: List Rendering ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/4.%20List%20Rendering)
 
 #### What’d we learn
 * The v-for directive allows us to iterate over an array to display data.
@@ -40,6 +40,18 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * We can loop over an array of objects and use dot notation to display values from the objects.
 * When using v-for it is recommended to give each rendered element its own unique key.
 
+### [:open_file_folder: List Rendering ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/5.%20Event%20Handling)
+
+#### What’d we learn
+* The v-on directive is used to allow elements to listen for events
+* The shorthand for v-on is @
+* You can specify the type of event to listen for:
+  * click
+  * mouseover
+  * any other DOM event
+* The v-on directive can trigger a method
+* Triggered methods can take in arguments
+* this refers to the current Vue instance’s data as well as other methods declared inside the instance
 
 ### Resources:
 [VueJS](https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance/) 
