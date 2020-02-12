@@ -40,7 +40,7 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 * We can loop over an array of objects and use dot notation to display values from the objects.
 * When using v-for it is recommended to give each rendered element its own unique key.
 
-### [:open_file_folder: List Rendering ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/5.%20Event%20Handling)
+### [:open_file_folder: Event Handling ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/5.%20Event%20Handling)
 
 #### What’d we learn
 * The v-on directive is used to allow elements to listen for events
