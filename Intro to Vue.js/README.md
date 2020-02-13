@@ -59,10 +59,17 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 - Triggered methods can take in arguments
 - this refers to the current Vue instance’s data as well as other methods declared inside the instance
 
-### [:open_file_folder: Class &Style Binding ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/6.%20Class%20&%20Style%20Binding)
+### [:open_file_folder: Class & Style Binding ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/6.%20Class%20&%20Style%20Binding)
 
 #### What’d we learn
 
 - Data can be bound to an element’s style attribute
 - Data can be bound to an element’s class
 - We can use expressions inside an element’s class binding to evaluate whether a class should appear or not
+
+### [:open_file_folder: Computed Properties ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/7.%20Computed%20Properties)
+
+#### What’d we learn
+
+- Computed properties calculate a value rather than store a value.
+- Computed properties can use data from your app to calculate its values.
