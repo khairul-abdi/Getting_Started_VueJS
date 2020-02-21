@@ -73,3 +73,9 @@ Use Live Server : [Link](https://marketplace.visualstudio.com/items?itemName=rit
 
 - Computed properties calculate a value rather than store a value.
 - Computed properties can use data from your app to calculate its values.
+
+### [:open_file_folder: Component ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/Intro%20to%20Vue.js/8.%20Component)
+
+#### What’d we learn
+
+- 

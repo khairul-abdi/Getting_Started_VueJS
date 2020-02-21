@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>List Rendering</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="nav-bar"></div>
-  <div id="app">
-    <div class="product">
-      <div class="product-image">
-        <img :src="image">
-      </div>
-      <div class="product-info">
-        <h1>{{ product }}</h1>
-        <p v-if="inStock">In Stock</p>
-        <p v-else>Out of Stock</p>
-        <ul>
-          <li v-for="detail in details">{{ detail }}</li>
-        </ul>
-
-        <ul>
-          <li v-for="size in sizes">{{ size }}</li>
-        </ul>
-        
-        <div v-for="variant in variants" :key="variant.variantId">
-          <p @mouseover="updateProduct(variant.variantImage)">
-            {{ variant.variantColor }}</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav-bar"></div>
+    <div id="app">
+      <div class="product">
+        <div class="product-image">
+          <img :src="image" />
         </div>
+        <div class="product-info">
+          <h1>{{ product }}</h1>
+          <p v-if="inStock">In Stock</p>
+          <p v-else>Out of Stock</p>
+          <ul>
+            <li v-for="detail in details">{{ detail }}</li>
+          </ul>
 
-        <div class="cart">
-          <p>Cart({{ cart }})</p>
-          <!-- <button v-on:click="cart += 1">Add to cart</button> -->    <!-- punya si Vue.JS tinggal menggunakan --> 
+          <ul>
+            <li v-for="size in sizes">{{ size }}</li>
+          </ul>
+
+          <div v-for="variant in variants" :key="variant.variantId">
+            <p @mouseover="updateProduct(variant.variantImage)">
+              {{ variant.variantColor }}
+            </p>
+          </div>
+
+          <div class="cart">
+            <p>Cart({{ cart }})</p>
+            <!-- <button v-on:click="cart += 1">Add to cart</button> -->
+            <!-- punya si Vue.JS tinggal menggunakan -->
+          </div>
+          <button v-on:click="addToCart">Add to cart</button>
+          <!-- Menggunakan Method di dalam Class nya -->
         </div>
-        <button v-on:click="addToCart">Add to cart</button>  <!-- Menggunakan Method di dalam Class nya --> 
       </div>
     </div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
-  <script src="main.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
