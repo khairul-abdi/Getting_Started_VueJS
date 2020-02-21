@@ -15,6 +15,8 @@
 * Forms 
 * Tabs
 
+## [:open_file_folder: Guide ](https://github.com/khairul-abdi/Getting_Started_VueJS/tree/master/guideOrDocumentation)
+* Basic Component
 
 
 ![alt text](https://github.com/khairul-abdi/Getting_Started_VueJS/blob/master/Intro%20to%20Vue.js/2.%20Attribute%20Binding/assets/logo.png "VueJS")
